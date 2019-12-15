@@ -1,6 +1,8 @@
 import express from 'express'; // importa o express
 import routes from './routes'; // importa o arquivo de rotas
 
+import './database';
+
 class App {
   // método construtor
   constructor() {
